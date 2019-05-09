@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/reac-burger-builder/precache-manifest.239c78f0033863cfcf429747dfb96545.js"
+  "/burger-builder-deployment/precache-manifest.d782a596f9de8ffd01f84ab1c44082bf.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/reac-burger-builder/index.html", {
+workbox.routing.registerNavigationRoute("/burger-builder-deployment/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
